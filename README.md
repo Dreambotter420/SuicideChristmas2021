@@ -25,7 +25,7 @@ The bots will start responding to commands in public chat after they reach the w
   
   "attack"/"kill"/"murder"/"slash"/"fight": Gets a random valid & attackable target nearby and attacks them; checks for single combat zone + occupied target and player combat level is compatible in wildy; continues to search for new targets after current one dies
   
-  "attack <partial name>": Searches for nearest attackable target containing name and attacks them
+  "attack [partial name]": Searches for nearest attackable target containing name and attacks them
  
   "dd" / "here" / "aqui": Walks to same tile as whoever said this (deathdot)
   
@@ -33,15 +33,15 @@ The bots will start responding to commands in public chat after they reach the w
   
   "dance dance": Constantly picks a random dancing emote to emote
  
-  "<Emote name>": Continuously emotes the specified emote (all default unlocked emotes supported)
+  "[Emote name]": Continuously emotes the specified emote (all default unlocked emotes supported)
  
   "follow": Follows the person who said this
   
-  "follow <partial name>": Searches for the nearest player containing this name and follows them
+  "follow [partial name]": Searches for the nearest player containing this name and follows them
   
   "trade" / "Spam": Spamtrades the person who said this
   
-  "trade/Spam <partial name>": Searches for the nearest player containing this name and spamtrades them
+  "trade/Spam [partial name]": Searches for the nearest player containing this name and spamtrades them
   
   "spread": Does a formation, I think it's a circle actually
   
@@ -62,4 +62,4 @@ The bots will start responding to commands in public chat after they reach the w
 
   # Final note
   
-  The script will listen to commands in public chat while doing the christmas event and store them, but won't actually execute any of them until they reach the wildy spot+tile. You may find your bots dancing or saying random things to you at this point.
+  The script will listen to commands in public chat while doing the christmas event and store them, but won't actually execute any of them until they reach the wildy spot+tile. You may find your bots dancing at this point.
