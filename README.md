@@ -15,7 +15,7 @@ After christmas event is complete and the script detects no more coins or christ
 
 # Configuration / Commands
 
-To configure the area to walk to in wildy and the world to hop to after reaching it, edit the variable assignments of <int worldToHopAfterWildyTile> and <Tile wildyTile> in org.lostclient.cashout.WalkToWildyTileLeaf.java.
+To configure the area to walk to in wildy and the world to hop to after reaching it, edit the variable assignments of [int worldToHopAfterWildyTile] and [Tile wildyTile] in org.lostclient.cashout.WalkToWildyTileLeaf.java.
 
 The bots will start responding to commands in public chat after they reach the wildy spot + world. The commands are as follows:
  
@@ -39,9 +39,9 @@ The bots will start responding to commands in public chat after they reach the w
   
   "follow [partial name]": Searches for the nearest player containing this name and follows them
   
-  "trade" / "Spam": Spamtrades the person who said this
+  "trade" / "spam": Spamtrades the person who said this
   
-  "trade/Spam [partial name]": Searches for the nearest player containing this name and spamtrades them
+  "trade/spam [partial name]": Searches for the nearest player containing this name and spamtrades them
   
   "spread": Does a formation, I think it's a circle actually
   
