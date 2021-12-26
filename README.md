@@ -9,11 +9,13 @@ Script then checks varbit values for christmas 2021 event, and completes it if n
 
 Once christmas event is done, script checks bank and GE to withdraw any coins on the account (also has some selling functions for certain things like potatoes, cabbages in case the account was used for other F2P suicide farming) as well as withdraws the tradeable christmas rewards in noted form. Then travels character to a specified spot in wilderness, hops to a specified world, then waits to be commanded to skull on other accounts and drop the noted rewards. 
 
+Once all (or a decent amount) of the bots have arrived at the wildy spot, the expected usage is to type "attack" to initiate a skull on most of the accounts. Script does not verify that each acc gets skulled after attacking, so it is recommended to type "dd" or similar follow command to stop attacking, then type "attack" again to get each account to pick another random target. Additionally, it is not recommmended to mass slaughter many accounts at once due to 8 items dropped per account taking 8 ticks to pick up, and the drops disappear after a minute or two.
+
 After christmas event is complete and the script detects no more coins or christmas rewards, closes the client.
 
 # Configuration / Commands
 
-To configure the area to walk to in wildy and the world to hop to after reaching it, edit the variables <int worldToHopAfterWildyTile> and <Tile wildyTile> in org.lostclient.cashout.WalkToWildyTileLeaf.java.
+To configure the area to walk to in wildy and the world to hop to after reaching it, edit the variable assignments of <int worldToHopAfterWildyTile> and <Tile wildyTile> in org.lostclient.cashout.WalkToWildyTileLeaf.java.
 
 The bots will start responding to commands in public chat after they reach the wildy spot + world. The commands are as follows:
  
@@ -24,6 +26,8 @@ The bots will start responding to commands in public chat after they reach the w
   "attack"/"kill"/"murder"/"slash"/"fight": Gets a random valid & attackable target nearby and attacks them; checks for single combat zone + occupied target and player combat level is compatible in wildy; continues to search for new targets after current one dies
   
   "attack <partial name>": Searches for nearest attackable target containing name and attacks them
+ 
+  "dd" / "here" / "aqui": Walks to same tile as whoever said this (deathdot)
   
   "hop to w301": Hop to w301 or any other valid F2P world
   
