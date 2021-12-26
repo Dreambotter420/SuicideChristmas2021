@@ -16,24 +16,43 @@ After christmas event is complete and the script detects no more coins or christ
 To configure the area to walk to in wildy and the world to hop to after reaching it, edit the variables <int worldToHopAfterWildyTile> and <Tile wildyTile> in org.lostclient.cashout.WalkToWildyTileLeaf.java.
 
 The bots will start responding to commands in public chat after they reach the wildy spot + world. The commands are as follows:
+ 
   "jk rowling wrote harry potter": Assigns whoever said this as the exclusive caller, stop listening to other people's commands
+  
   "listen to everyone now": Disengages the previous mode
+  
   "attack"/"kill"/"murder"/"slash"/"fight": Gets a random valid & attackable target nearby and attacks them; checks for single combat zone + occupied target and player combat level is compatible in wildy; continues to search for new targets after current one dies
+  
   "attack <partial name>": Searches for nearest attackable target containing name and attacks them
+  
   "hop to w301": Hop to w301 or any other valid F2P world
+  
   "dance dance": Constantly picks a random dancing emote to emote
+ 
   "<Emote name>": Continuously emotes the specified emote (all default unlocked emotes supported)
+ 
   "follow": Follows the person who said this
+  
   "follow <partial name>": Searches for the nearest player containing this name and follows them
+  
   "trade" / "Spam": Spamtrades the person who said this
+  
   "trade/Spam <partial name>": Searches for the nearest player containing this name and spamtrades them
+  
   "spread": Does a formation, I think it's a circle actually
+  
   "circle": Walks to a random tile around whoever said this, generally making a circle with enough bots.
+  
   "square": Same as above
+  
   "line up": Same as above - vertical line N-S
+  
   "line": Same as above - horizontal line E-W
+  
   "swarm"/"squaredance": Constantly paths to a random tile in a 5x5 square around whoever said this
+  
   "go home": Goes to lumbridge
+  
   "stop":Forgets and disengages all current commands (but continues to listen to exclusive caller if any)
 
 
